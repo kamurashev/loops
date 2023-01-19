@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-time python3 ./loop.py
+hyperfine -r 10 "python3 ./loop.py"
